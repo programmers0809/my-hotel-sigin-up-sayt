@@ -1,0 +1,501 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+img{
+    height: 800px;
+}
+body{
+    color: blueviolet;
+} */
+body{
+    background-color: rgb(165, 233, 151);
+}
+.boxx{
+    width: 800px;
+    margin-left: 300px ;
+    box-shadow: 0px 0px 10px  ;
+    background-color:rgb(220, 193, 193);
+    border-radius: 20px;
+}
+.box{  
+    width: 600px;
+    height: 100px;
+    /* background-color: rgb(212, 235, 235); */
+    display: flex;
+    /* border-radius: 20px ; */
+}
+.box ul{
+    margin: 50px 0px 0px 70px  ;
+    display: flex;
+    gap: 20px;
+    font-size: 20px ;
+    color:rgb(217, 225, 225);
+}
+.box h2{
+    font-size: 50px ;
+    position: relative;
+    bottom: 20px ;
+    left: 20px ;
+    text-shadow: 0px 0px 10px  ;
+}
+img{
+    width: 800px ;
+    /* box-shadow: 0px 0px 5px; */
+}
+button{
+    width: 200px;
+    height: 50px ;
+    background-color: brown;
+    box-shadow: 0px 0px 10px  ;
+    margin-left: 20px ;
+}
+.boxx1{
+    grid-template-columns: auto auto;
+    display: grid;
+    margin-top: 10px ;
+    gap: 10px ;
+}
+.box1{
+    margin-left: 20px;
+    width: 350px;
+    border: 2px solid  ;
+    display: flex;
+}
+.box1 p{
+    margin-left: 20px ;
+}
+.box1 img{
+    width: 200px;
+}
+.box2{
+    margin-left: 20px;
+    width: 350px;
+    border: 2px solid ;
+    display: flex;
+}
+.box2 img{
+    width: 200px ;
+}
+.box3{
+    margin: 20px;
+    width: 350px;
+    border: 2px solid ;
+    display: flex;
+}
+.box3 img{
+    width: 200px ;
+}
+.box4{
+    margin: 20px;
+    width: 350px;
+    border: 2px solid ;
+    display: flex;
+}
+.box4 img{
+    width: 200px;
+}
+ .boxx2{
+    grid-template-columns: auto auto auto;
+    display: grid;
+    gap: 30px;
+}
+.box5{
+    width: 200px ;
+    border: 2px solid  ;
+    margin-left: 20px  ;
+    font-size: 40px ;
+}
+.box5 p{
+    font-size: 15px  ;
+    margin: 0px 0px 20px 10px  ;
+}
+.box5 button{
+    width: 100px ;
+    height:  40px ;
+    margin-left: 70px  ;
+}
+.box6{
+    width: 200px ;
+    border: 2px solid  ;
+    margin-left: 20px  ;
+    font-size: 40px ;
+}
+.box6 p{
+    font-size: 15px  ;
+    margin: 0px 0px 20px 10px  ;
+}
+.box7{
+    width: 200px ;
+    border: 2px solid  ;
+    margin-left: 20px  ;
+    font-size: 40px ;
+}
+.box7 p{
+    font-size: 15px  ;
+    margin: 0px 0px 20px 10px  ;
+}
+.box7 button{
+    width: 100px ;
+    height:  40px ;
+    margin-left: 70px  ;
+}
+.boxx3{
+    grid-template-columns: auto auto auto auto;
+    display: grid;
+    gap: 10px;
+    margin: 20px 0px 0px 20px ;
+}
+.box8{
+    /* font-size: 20px ; */
+    /* width: 200px ; */
+    /* height: 50px ; */
+    /* background-color: brown; */
+    margin: 20px 0px 0px 0px  ;
+}
+.box9 img{
+    width: 150px ;
+}
+.img1 img{
+    width: 150px ;
+}
+.img2 img{
+    width: 150px ;
+}
+.img3 img{
+    width: 150px ;
+}
+.vivo button{
+    position: relative;
+    bottom: 40px ;
+}
+.icon{
+    margin-left: 50px ;
+    grid-template-rows: auto auto auto;
+    display: grid;
+    gap: 20px;
+}
+.icon .box1{
+    height: 100px;
+    width: 600px;
+}
+.icon .box1 i{
+    font-size: 100px ;
+    margin-left: 20px ;
+    color: green;
+}
+.icon .box2{
+    position: relative;
+    top: 15px ;
+    height: 100px;
+    width: 600px;
+}
+.icon .box2 i{
+    font-size: 100px ;
+    margin-left: 20px ;
+    color: brown;
+}
+.icon .box3{
+    height: 100px;
+    width: 600px;
+    text-align: center;
+}
+.icon .box3 p{
+    position: relative;
+    top: 300px ;
+}
+.icon .box3 i{
+    font-size: 100px ;
+    margin-left: 20px ;
+    color: cyan;
+}
+.grid{
+    grid-template-columns: auto auto;
+    display: grid;
+}
+.grid .box1 img{
+    width: 350px;
+    height: 125px ;
+}
+.grid .box2 img{
+    width: 350px;
+    height: 125px ;
+}
+.grid .box1 {
+    border: 2px solid rgb(217, 225, 225);;
+    height: 300px ;
+    display: block;
+}
+.grid .box2 {
+    border: 2px solid rgb(217, 225, 225); ;
+    height: 300px ;
+    display: block;
+}
+.grid .box2 p{
+    margin-left: 20px ;
+}
+.vivo1{
+    grid-template-columns: auto auto auto auto;
+    display: grid;
+    gap: 5px ;
+    margin-left: 10px ;
+    text-align: center;
+}
+.vivo1 .infinix img{
+    width: 180px;
+}
+.vivo1 .infinix1 img{
+    width: 180px;
+}
+.vivo1 .infinix2 img{
+    width: 180px;
+}
+.vivo1 .infinix3 img{
+    width: 180px;
+}
+.sony1{
+    border: 2px solid ;
+    width: 300px ;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(133, 84, 24);
+    margin-left: 10px ;
+}
+.iphone{
+    grid-template-columns: auto auto ;
+    display: grid;
+    gap: 10px ;
+    margin-left: 30px ;
+    margin-top: 20px ;
+}
+.sony2 i{
+    margin: 20px 0px 0px  20px  ;
+    font-size: 60px ;
+}
+.sony2 p{
+    text-align: center;
+}
+.sony2{
+    width: 300px ;
+    border: 2px solid;
+    height: 100px;
+    display: flex;
+}
+.sony3 i{
+    margin: 20px 0px 0px  20px  ;
+    font-size: 60px ;
+}
+.sony3 p{
+    text-align: center;
+}
+.sony3{
+    width: 300px ;
+    border: 2px solid;
+    height: 100px;
+    display: flex;
+}
+.sony4 i{
+    margin: 20px 0px 0px  20px  ;
+    font-size: 60px ;
+}
+.sony4 p{
+    text-align: center;
+}
+.sony4{
+    width: 300px ;
+    border: 2px solid;
+    height: 100px;
+    display: flex;
+}
+.sony5 i{
+    margin: 20px 0px 0px  20px  ;
+    font-size: 60px ;
+}
+.sony5 p{
+    text-align: center;
+}
+.sony5{
+    width: 300px ;
+    border: 2px solid;
+    height: 100px;
+    display: flex;
+    margin-bottom: 10px ;
+}
+.fox{
+    grid-template-columns: auto auto auto auto auto;
+    display: grid;
+    /* gap: px ; */
+    margin-top: 10px ;
+    margin-left: 10px ;
+}
+.amazon img{
+    width: 150px;
+}
+.stanford img{
+    width: 150px;
+}
+.annese img{
+    width: 150px;
+}
+.iata img{
+    width: 150px;
+}
+.salesforse img{
+    width: 150px ;
+}
+.p p{
+    text-align: left;
+    margin-left: 20px ;
+    width: 700px ;
+}
+.the{
+    background-color: black;
+    width: 800px ;
+    height: 40px;
+}
+.artel1 button{
+    width: 200px;
+    height: 50px ;
+    background-color: brown;
+    box-shadow: 0px 0px 10px  ;
+    /* margin-left: 200px ; */
+    margin-top: 20px ;
+    margin-bottom: 10px;
+    position: relative;
+    left: 270px ;
+}
+input{
+    width: 300px;
+    background-color: rgb(220, 193, 193);
+    border-left: 2px solid   rgb(220, 193, 193);
+    border-top: 2px solid rgb(220, 193, 193);
+    border-right: 2px solid rgb(220, 193, 193);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 5px ;
+    font-size: 20px;
+    margin-left: 20px;
+    display: flex;   
+}
+textarea{
+    background-color: rgb(220, 193, 193);
+    border-left: 2px solid   rgb(220, 193, 193);
+    border-top: 2px solid rgb(220, 193, 193);
+    border-right: 2px solid rgb(220, 193, 193);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 5px ;
+    font-size: 20px;
+    margin-left: 20px;
+    display: flex;   
+}
+.artel{
+    grid-template-columns: auto auto;
+    display: grid;
+}
+.bigbox{
+    grid-template-columns: auto auto;
+    display: grid;
+}
+.text h3{
+    color: green;
+}
+.text1 h3{
+    color: green;
+}
+.text{
+    width: 350px ;
+    margin-left: 50px ;
+}
+.text1{
+    width: 350px;
+}
